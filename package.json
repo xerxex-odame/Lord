@@ -1,0 +1,21 @@
+{
+  "name": "lord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express_server.js",
+  "scripts": {
+    "dev": "nodemon express_server.js",
+    "start": "node express_server.js"
+  },
+  "keywords": [],
+  "author": "odame",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fund": "^1.0.0",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
